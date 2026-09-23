@@ -38,6 +38,16 @@ journal = {
     "Козлова": [9, 8, 10, 9],
 }
 
+while (True):
+    print("Вы хотите добавить новых студентов? ")
+    info = input("(Y/N): ")
+    if info == 'N':
+        break
+    name = input("фио: ")
+    notas = [int(input(f"Оценка {x}: ")) for x in range(4) if -1 < x < 11]
+    notas = sum(notas)
+    agregar_puntuacion(journal,name,round(notas/4))
+
 print("Рейтинг:")
 ranking = clasificacion(journal)
 for i, (nombre, nota) in enumerate(ranking, 1):
@@ -56,7 +66,7 @@ for nombre, notas in journal.items():
             en_riesgo.append(nombre)
             break
 
-# RSIK ZONE
+# RISK ZONE
 print(f"В зоне риска: {en_riesgo}")
 
 print("\nТипы промежуточных результатов и объяснение выбора коллекций:")
