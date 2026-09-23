@@ -47,7 +47,7 @@ while (True):
     notas = [int(input(f"Оценка {x}: ")) for x in range(4) if -1 < x < 11]
     notas = sum(notas)
     agregar_puntuacion(journal,name,round(notas/4))
-
+print(journal)
 print("Рейтинг:")
 ranking = clasificacion(journal)
 for i, (nombre, nota) in enumerate(ranking, 1):
