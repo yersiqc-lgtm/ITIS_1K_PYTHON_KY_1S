@@ -14,7 +14,7 @@ def make_receipt(cart: list[dict], * , discount: float = 0, title: str = "ЧЕК
     text = F'''{'='*5}{title:^10}{'='*5}\n'''
     for i in cart:
         for clave, valor in i.items():
-            text += F"{clave:<30}{valor[1]}  X  {valor[0]}"
+            text += F"{clave:<30}{valor[1]}  X  {valor[0]}\n"
     text += "\n"+"-"*30 + "\n"
     sum = cart_total(cart)
     text += F"{'Сумма :':<30}{sum}"+\
