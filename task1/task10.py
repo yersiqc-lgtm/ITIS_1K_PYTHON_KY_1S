@@ -159,7 +159,7 @@ def make_receipt(
         Return:
             returns a receipt-style string with all the data ready for printing or display
     """
-    /*text = F'''{'='*5}{title:^10}{'='*5}\n'''
+    text = F'''{'='*5}{title:^10}{'='*5}\n'''
     for i in cart:
         for clave, valor in i.items():
             text += F"{clave:<30}{valor[1]}  X  {valor[0]}\n"
