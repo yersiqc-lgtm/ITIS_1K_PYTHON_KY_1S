@@ -10,8 +10,8 @@ Python exercises for the first semester at ITIS, organized by submission
 
 ## Classwork
 
-| Assignment      |      Files |
---------------------------------
+| Assignment      |      Files |\n
+--------------------------------\n
 | `assignment_01` | `task1.py` |
 | `assignment_02` | `task2.py` |
 | `assignment_03` | `task3.py` |
