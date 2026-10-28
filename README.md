@@ -33,5 +33,3 @@ Python exercises for the first semester at ITIS, organized by submission
 python classwork/assignment_01/task1.py
 python homework/assignment_05/task5.py
 ```
-
-Some scripts ask for user input; `task2.py` also requires `matplotlib`.
