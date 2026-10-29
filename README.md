@@ -27,7 +27,8 @@ Python exercises for the first semester at ITIS, organized by submission
 | `assignment_07` | `task7.py`, `task7_v2.py` |
 | `assignment_09` | `task9.py`  |
 | `assignment_10` | `task10.py` |
-| `assignment_debugging` | `bug_1.py` to `bug_4.py`, `ai_log.txt`, `report_ru.txt` |
+| `assignment_11` | `bug_1.py` to `bug_4.py`, `ai_log.txt`, `report_ru.txt` |
+| `assignment_12` | `benchmark.py`, `recursion.py`, `test_recursion.py` |
 
 ```sh
 python classwork/assignment_01/task1.py
