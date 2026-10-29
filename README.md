@@ -17,6 +17,7 @@ Python exercises for the first semester at ITIS, organized by submission
 | `assignment_03` | `task3.py` |
 | `assignment_04` | `task4.py` |
 | `assignment_08` | `task8.py` |
+| `assignment_09` | `01_task`, `02_task`, `03_task`, `04_task` and `05_task`|
 
 ## Homework
 
